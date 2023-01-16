@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px;
+        padding: 0px;
+        background: url('img/bgm.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px solid red; */
+        position: absolute;
+        left: 30px;
+        top: 20px;
+        color: red;
+    }
+
+    .left img {
+        width: 100px;
+        filter: invert(100%);
+        border-radius: 20px;
+        /* left: 100px; */
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 50%;
+        margin: 29px auto;
+        border: 2px solid goldenrod;
+        border-radius: 20px;
+        background-color: rgb(242, 80, 80);
+    }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+        /* border: 2px solid yellow; */
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 16px;
+    }
+
+    .navbar li a {
+        /* display: inline-block; */
+        color: black;
+        text-decoration: none;
+        padding: 30px 20px;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: solid;
+        color: white;
+
+    }
+
+    .btn {
+        font-family: 'Baloo Bhai', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(103, 45, 45);
+    }
+
+   
+    .information  {
+       
+        text-align: center;
+        margin: 10px 10px;
+        width: 80%;
+        left: 200px;
+        padding: 40px 50px;
+        position: absolute;
+    }
+
+    .information h1 {
+        color: black;
+        text-align: center;
+        border: 2px solid red;
+        border-radius: 15px;
+        width: 300px;
+        padding: 12px 88px;
+        left: 100px;
+        position: relative;
+        background-color: orange;
+        cursor: pointer;
+    }
+
+    .information  h3,h2 {
+        color: white;
+        text-align: center;
+        border: 2px solid red;
+        border-radius: 15px;
+        width: 600px;
+        padding: 40px 50px;
+        position: relative;
+        background-color: orange;
+        cursor: pointer;
+    }
+
+    .information  h2 {
+        color: rgb(14, 7, 7);
+        text-align: center;
+        border: 2px solid rgb(43, 5, 5);
+        border-radius: 15px;
+        width: 600px;
+        padding: 40px 50px;
+        position: relative;
+        background-color: rgb(248, 191, 84);
+        cursor: pointer;
+    }
+
+    .information :hover{
+        color: brown;
+        background-color: rgb(121, 109, 92);
+    }
+
+   
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/gym.jpg" alt="">
+            <div>Swanand Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="Gallery.html">Gallery </a></li>
+                <li><a href="Login.html">Create account</a></li>
+            </ul>
+        </div>
+
+        <!-- Right box for buttons -->
+        <div class="right">
+            <a href="call.html"><button class="btn">Call Us Now</button></a> 
+            <button class="btn">Email Us</button>
+        </div>
+    </header>
+
+
+    <div class="information">
+        <h1>Contact Details</h1>
+        <h2>Please feel free to ask</h2>
+        <h3>
+            Email : sj140196@SwanandFitness.com
+
+           
+        </h3>
+
+        <h3>
+            
+
+            Mobile No : +91-8208661041
+        </h3>
+
+    </div>
+
+   
+</body>
+
+</html>
